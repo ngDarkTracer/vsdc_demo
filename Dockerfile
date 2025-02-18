@@ -4,4 +4,4 @@ COPY vsdc.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
-CMD ["startup.sh"]
+CMD ["catalina.sh run"]
